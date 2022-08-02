@@ -1,0 +1,16 @@
+.link {
+  display: flex;
+  align-items: center;
+  margin-inline: 1.5rem;
+  cursor: pointer;
+}
+
+.link h5 {
+  font-family: "Open Sans", sans-serif;
+
+  color: #fcba14;
+}
+
+.link img {
+  transform: scale(0.3);
+}

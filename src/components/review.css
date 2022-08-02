@@ -1,0 +1,65 @@
+.review_sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review_details {
+  text-align: left;
+  width: 50%;
+}
+
+.review_details h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.rev_card {
+  max-width: 75%;
+  background: #aa65ff;
+  padding: 1rem;
+  border-radius: 1em;
+  margin-top: 1rem;
+}
+
+.rev_card p {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+  color: white;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stars img {
+  transform: scale(0.7);
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.dot {
+  margin-inline: 0.2rem;
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #671eba, #9853de);
+  box-shadow: 20px 20px 60px #823ad8, -20px -20px 60px #b04eff;
+}
+
+.fill {
+  background: linear-gradient(
+    180deg,
+    rgba(237, 182, 0, 1) 0%,
+    rgba(255, 98, 0, 1) 100%
+  );
+  border: 2px solid rgb(231, 231, 231);
+  transform: scale(1.1);
+}

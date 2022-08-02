@@ -1,0 +1,78 @@
+.conatiner {
+  padding-inline: 5%;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.details {
+  text-align: left;
+  z-index: 1;
+}
+
+.sub {
+  display: flex;
+  align-items: center;
+}
+
+.sub img {
+  margin-right: 0.5rem;
+  transform: scale(0.8);
+}
+
+.sub h4 {
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.heading {
+  color: white;
+  font-size: 2rem;
+}
+
+.heading h1 {
+  letter-spacing: 4px;
+}
+
+.mid {
+  display: flex;
+  align-items: center;
+}
+
+.mid p {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-inline: 0.2rem;
+  transform: rotate(-12deg);
+}
+
+.btn_sec {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.banner {
+  z-index: 1;
+}
+
+.paws {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-inline: auto;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.paws {
+  transform: rotate(-30deg) scale(1.5);
+  z-index: 0;
+}

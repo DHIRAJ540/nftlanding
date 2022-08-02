@@ -1,0 +1,26 @@
+.card {
+  width: 28%;
+  border-radius: 50px;
+  background: #aa65ff;
+  box-shadow: inset 20px 20px 60px #9156d9, inset -20px -20px 60px #c474ff;
+  padding: 2.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: 1.2rem;
+}
+
+.card_img {
+  width: 80%;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.card p {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,41 @@
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  padding-block: 5rem;
+}
+
+.footer_head {
+  display: flex;
+  align-items: center;
+}
+
+.footer_head h3 {
+  color: white;
+  margin-left: 1.5rem;
+}
+.footer_left p {
+  font-family: "Open Sans", sans-serif;
+
+  color: white;
+  margin-top: 1rem;
+  opacity: 0.8;
+}
+
+.footer_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_details {
+  margin-inline: 2rem;
+  color: white;
+}
+
+.footer_details p {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}

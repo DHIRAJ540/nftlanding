@@ -1,0 +1,21 @@
+.prod_container {
+  background: rgb(157, 79, 244);
+  background: linear-gradient(
+    180deg,
+    rgba(157, 79, 250, 1) 0%,
+    rgba(157, 79, 250, 1) 50%,
+    rgba(145, 63, 201, 1) 50%
+  );
+}
+
+.prod_container h1 {
+  font-size: 3rem;
+  color: white;
+  margin-block: 2rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
